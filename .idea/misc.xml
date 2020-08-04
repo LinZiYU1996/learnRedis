@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/connect_demo/pom.xml" />
         <option value="$PROJECT_DIR$/publish_subscribe_demo/pom.xml" />
         <option value="$PROJECT_DIR$/affairs_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_redis/pom.xml" />
       </list>
     </option>
   </component>
