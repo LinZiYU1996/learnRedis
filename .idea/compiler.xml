@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis_redis" />
-        <module name="learnRedis" />
-        <module name="publish_subscribe_demo" />
-        <module name="connect_demo" />
         <module name="affairs_demo" />
+        <module name="publish_subscribe_demo" />
+        <module name="learnRedis" />
+        <module name="connect_demo" />
       </profile>
     </annotationProcessing>
   </component>
