@@ -8,6 +8,7 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.connection.RedisConnection;
 import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
 import java.util.Set;
@@ -23,6 +24,8 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * \* Description:
  * \
  */
+
+@Component
 public class MybatisRedisCache implements Cache {
 
     private static final Logger logger = LoggerFactory.getLogger(MybatisRedisCache.class);

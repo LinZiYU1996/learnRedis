@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/publish_subscribe_demo/pom.xml" />
         <option value="$PROJECT_DIR$/affairs_demo/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis_redis/pom.xml" />
+        <option value="$PROJECT_DIR$/cache_redis/pom.xml" />
+        <option value="$PROJECT_DIR$/test_jmeter/pom.xml" />
       </list>
     </option>
   </component>
