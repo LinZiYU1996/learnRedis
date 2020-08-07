@@ -4,6 +4,7 @@ import com.lin.mybatis_redis.holder.SpringContextHolder;
 import org.apache.ibatis.cache.Cache;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.connection.RedisConnection;
 import org.springframework.data.redis.core.RedisCallback;
@@ -25,7 +26,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * \
  */
 
-@Component
+
 public class MybatisRedisCache implements Cache {
 
     private static final Logger logger = LoggerFactory.getLogger(MybatisRedisCache.class);
@@ -33,10 +34,15 @@ public class MybatisRedisCache implements Cache {
     // 读写锁
     private final ReadWriteLock readWriteLock = new ReentrantReadWriteLock(true);
 
-    private RedisTemplate<String, Object> redisTemplate = SpringContextHolder.getBean("redisTemplate");
+    @Autowired
+    private RedisTemplate<String, Object> redisTemplate;
+
 
     private String id;
 
+    public MybatisRedisCache(){
+
+    }
     public MybatisRedisCache(final String id) {
         if (id == null) {
             throw new IllegalArgumentException("Cache instances require an ID");

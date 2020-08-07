@@ -4,12 +4,12 @@
 
 
 
-    <cache type="com.lin.mybatis_redis.cache.MybatisRedisCache">
-        <property name="eviction" value="LRU" />
-        <property name="flushInterval" value="6000000" />
-        <property name="size" value="1024" />
-        <property name="readOnly" value="false" />
-    </cache>
+<!--    <cache type="com.lin.mybatis_redis.cache.MybatisRedisCache">-->
+<!--        <property name="eviction" value="LRU" />-->
+<!--        <property name="flushInterval" value="6000000" />-->
+<!--        <property name="size" value="1024" />-->
+<!--        <property name="readOnly" value="false" />-->
+<!--    </cache>-->
 
 
 
@@ -140,7 +140,7 @@
 
 
     <!-- 对这个语句useCache="true"默认是true，可以不写 -->
-    <select id="findAll" resultMap="BaseResultMap" useCache="true">
+    <select id="findAll" resultMap="BaseResultMap" >
         select
         <include refid="Base_Column_List"/>
         from person
@@ -149,12 +149,12 @@
 
 
 
-    <!-- 对这个语句禁用二级缓存 -->
-    <select id="findByPage" resultMap="BaseResultMap" useCache="false">
-        select
-        <include refid="Base_Column_List"/>
-        from person
-    </select>
+<!--    &lt;!&ndash; 对这个语句禁用二级缓存 &ndash;&gt;-->
+<!--    <select id="findByPage" resultMap="BaseResultMap" useCache="false">-->
+<!--        select-->
+<!--        <include refid="Base_Column_List"/>-->
+<!--        from person-->
+<!--    </select>-->
 
 
 

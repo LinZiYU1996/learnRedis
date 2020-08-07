@@ -2,7 +2,9 @@ package com.lin.mybatis_redis.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.github.pagehelper.Page;
+import com.lin.mybatis_redis.cache.MybatisRedisCache;
 import com.lin.mybatis_redis.entity.Person;
+import org.apache.ibatis.annotations.CacheNamespace;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -17,6 +19,7 @@ import java.util.List;
  */
 
 @Repository
+@CacheNamespace(implementation= MybatisRedisCache.class,eviction=MybatisRedisCache.class)
 public interface PersonMapper extends BaseMapper<Person> {
 
     int deleteByPrimaryKey(Long id);

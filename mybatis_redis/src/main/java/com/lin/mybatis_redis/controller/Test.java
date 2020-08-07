@@ -28,16 +28,22 @@ public class Test {
 
     @RequestMapping("/t1")
     public void t1() {
-        long begin = System.currentTimeMillis();
+
         List<Person> persons = personService.findAll();
-        long ing = System.currentTimeMillis();
+
         personService.findAll();
-        long end = System.currentTimeMillis();
-        log.info("第一次请求时间：" + (ing - begin) + "ms");
-        log.info("第二次请求时间:" + (end - ing) + "ms");
+
+
 
 //        Assert.assertNotNull(persons);
         log.info(JSON.toJSONString(persons));
+
+    }
+
+    @RequestMapping("/t2")
+    public void t2() {
+        personService.findAll();
+
 
     }
 
