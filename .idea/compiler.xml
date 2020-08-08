@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mbp_redis" />
         <module name="learnRedis" />
         <module name="publish_subscribe_demo" />
         <module name="test_jmeter" />
@@ -18,12 +19,14 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="affairs_demo" options="" />
-      <module name="cache_redis" options="" />
-      <module name="connect_demo" options="" />
-      <module name="learnRedis" options="" />
-      <module name="mybatis_redis" options="" />
-      <module name="publish_subscribe_demo" options="" />
+      <module name="affairs_demo" options="-parameters" />
+      <module name="cache_redis" options="-parameters" />
+      <module name="connect_demo" options="-parameters" />
+      <module name="learnRedis" options="-parameters" />
+      <module name="mbp_redis" options="-parameters" />
+      <module name="mybatis_redis" options="-parameters" />
+      <module name="publish_subscribe_demo" options="-parameters" />
+      <module name="test_jmeter" options="-parameters" />
     </option>
   </component>
 </project>
