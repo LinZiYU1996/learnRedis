@@ -12,6 +12,7 @@
         <module name="test_jmeter" />
         <module name="cache_redis" />
         <module name="mybatis_redis" />
+        <module name="redis-distributed-lock" />
         <module name="connect_demo" />
         <module name="affairs_demo" />
       </profile>
@@ -26,6 +27,7 @@
       <module name="mbp_redis" options="-parameters" />
       <module name="mybatis_redis" options="-parameters" />
       <module name="publish_subscribe_demo" options="-parameters" />
+      <module name="redis-distributed-lock" options="-parameters" />
       <module name="test_jmeter" options="-parameters" />
     </option>
   </component>
