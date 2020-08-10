@@ -6,14 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mbp_redis" />
-        <module name="learnRedis" />
+        <module name="delay-queue" />
         <module name="publish_subscribe_demo" />
-        <module name="test_jmeter" />
-        <module name="cache_redis" />
-        <module name="mybatis_redis" />
-        <module name="redis-distributed-lock" />
         <module name="connect_demo" />
+        <module name="redis-hyperloglog" />
+        <module name="mybatis_redis" />
+        <module name="mbp_redis" />
+        <module name="redis-distributed-lock-3" />
+        <module name="redis-distributed-lock-2" />
+        <module name="redis-bitmap" />
+        <module name="redis-distributed-lock" />
+        <module name="learnRedis" />
+        <module name="cache_redis" />
+        <module name="test_jmeter" />
         <module name="affairs_demo" />
       </profile>
     </annotationProcessing>
@@ -23,11 +28,16 @@
       <module name="affairs_demo" options="-parameters" />
       <module name="cache_redis" options="-parameters" />
       <module name="connect_demo" options="-parameters" />
+      <module name="delay-queue" options="-parameters" />
       <module name="learnRedis" options="-parameters" />
       <module name="mbp_redis" options="-parameters" />
       <module name="mybatis_redis" options="-parameters" />
       <module name="publish_subscribe_demo" options="-parameters" />
+      <module name="redis-bitmap" options="-parameters" />
       <module name="redis-distributed-lock" options="-parameters" />
+      <module name="redis-distributed-lock-2" options="-parameters" />
+      <module name="redis-distributed-lock-3" options="-parameters" />
+      <module name="redis-hyperloglog" options="-parameters" />
       <module name="test_jmeter" options="-parameters" />
     </option>
   </component>

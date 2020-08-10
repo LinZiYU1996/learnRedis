@@ -1,13 +1,13 @@
-package com.lin.redisdistributedlock;
-
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
-class RedisDistributedLockApplicationTests {
-
-    @Test
-    void contextLoads() {
-    }
-
-}
+//package com.lin.redisdistributedlock;
+//
+//import org.junit.jupiter.api.Test;
+//import org.springframework.boot.test.context.SpringBootTest;
+//
+//@SpringBootTest
+//class RedisDistributedLockApplicationTests {
+//
+//    @Test
+//    void contextLoads() {
+//    }
+//
+//}

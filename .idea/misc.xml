@@ -13,6 +13,11 @@
         <option value="$PROJECT_DIR$/test_jmeter/pom.xml" />
         <option value="$PROJECT_DIR$/mbp_redis/pom.xml" />
         <option value="$PROJECT_DIR$/redis-distributed-lock/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-distributed-lock-2/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-distributed-lock-3/pom.xml" />
+        <option value="$PROJECT_DIR$/delay-queue/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-bitmap/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-hyperloglog/pom.xml" />
       </list>
     </option>
   </component>
