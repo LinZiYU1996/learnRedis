@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="redis-lua" />
+        <module name="redis-limiting" />
         <module name="delay-queue" />
         <module name="publish_subscribe_demo" />
         <module name="connect_demo" />
@@ -17,6 +19,7 @@
         <module name="redis-bitmap" />
         <module name="redis-distributed-lock" />
         <module name="learnRedis" />
+        <module name="cache-redis-caffeine" />
         <module name="cache_redis" />
         <module name="test_jmeter" />
         <module name="affairs_demo" />
@@ -26,6 +29,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="affairs_demo" options="-parameters" />
+      <module name="cache-redis-caffeine" options="-parameters" />
       <module name="cache_redis" options="-parameters" />
       <module name="connect_demo" options="-parameters" />
       <module name="delay-queue" options="-parameters" />
@@ -38,6 +42,8 @@
       <module name="redis-distributed-lock-2" options="-parameters" />
       <module name="redis-distributed-lock-3" options="-parameters" />
       <module name="redis-hyperloglog" options="-parameters" />
+      <module name="redis-limiting" options="-parameters" />
+      <module name="redis-lua" options="-parameters" />
       <module name="test_jmeter" options="-parameters" />
     </option>
   </component>
