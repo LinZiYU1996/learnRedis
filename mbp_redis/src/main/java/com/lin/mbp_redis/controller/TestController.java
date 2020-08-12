@@ -1,10 +1,14 @@
 package com.lin.mbp_redis.controller;
 
+import com.lin.mbp_redis.entity.Person;
 import com.lin.mbp_redis.service.IPersonService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.List;
 
 /**
  * \* Created with IntelliJ IDEA.
@@ -23,11 +27,10 @@ public class TestController {
     private IPersonService personService;
     @RequestMapping("/test")
     @ResponseBody
-    public String t() {
-
-
-        personService.findAll();
-        return "hello";
+    @Cacheable(value = "persons")
+    public List<Person> t() {
+        List<Person> people = personService.findAll();
+        return people;
 
     }
 }

@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/redis-lua/pom.xml" />
         <option value="$PROJECT_DIR$/redis-limiting/pom.xml" />
         <option value="$PROJECT_DIR$/cache-redis-caffeine/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-redis/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,12 +1,8 @@
-package com.lin.mbp_redis.mapper;
+package com.lin.bootredis.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-
-import com.lin.mbp_redis.entity.Person;
-import org.apache.ibatis.annotations.CacheNamespace;
+import com.lin.bootredis.entity.Person;
 import org.apache.ibatis.annotations.Mapper;
-import org.springframework.cache.annotation.CacheConfig;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

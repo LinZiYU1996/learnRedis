@@ -20,6 +20,10 @@ spring:
     password: 123456
 
 
+  cache:
+    type: redis
+
+
 
 #日志
 logging:
