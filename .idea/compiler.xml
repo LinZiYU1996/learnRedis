@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="redis-lua" />
-        <module name="delay-queue" />
         <module name="redis-blog-article" />
         <module name="publish_subscribe_demo" />
         <module name="connect_demo" />
@@ -18,10 +17,12 @@
         <module name="redis-limiting" />
         <module name="redis-distributed-lock-2" />
         <module name="redis-bitmap" />
+        <module name="redis-distributed-lock" />
         <module name="learnRedis" />
         <module name="cache-redis-caffeine" />
         <module name="cache_redis" />
-        <module name="redis-distributed-lock" />
+        <module name="delay-queue" />
+        <module name="learn-aop" />
         <module name="affairs_demo" />
         <module name="redis-distributed-lock-3" />
         <module name="test_jmeter" />
