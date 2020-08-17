@@ -1,10 +1,10 @@
-//package com.lin.learnaop;
+//package com.lin.productredis;
 //
 //import org.junit.jupiter.api.Test;
 //import org.springframework.boot.test.context.SpringBootTest;
 //
 //@SpringBootTest
-//class LearnAopApplicationTests {
+//class ProductRedisApplicationTests {
 //
 //    @Test
 //    void contextLoads() {

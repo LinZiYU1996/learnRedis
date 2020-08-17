@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/boot-redis/pom.xml" />
         <option value="$PROJECT_DIR$/redis-blog-article/pom.xml" />
         <option value="$PROJECT_DIR$/learn-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/product-redis/pom.xml" />
       </list>
     </option>
   </component>

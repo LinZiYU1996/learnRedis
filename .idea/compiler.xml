@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="redis-lua" />
+        <module name="delay-queue" />
+        <module name="product-redis" />
         <module name="redis-blog-article" />
         <module name="publish_subscribe_demo" />
         <module name="connect_demo" />
@@ -17,11 +19,10 @@
         <module name="redis-limiting" />
         <module name="redis-distributed-lock-2" />
         <module name="redis-bitmap" />
-        <module name="redis-distributed-lock" />
         <module name="learnRedis" />
         <module name="cache-redis-caffeine" />
         <module name="cache_redis" />
-        <module name="delay-queue" />
+        <module name="redis-distributed-lock" />
         <module name="learn-aop" />
         <module name="affairs_demo" />
         <module name="redis-distributed-lock-3" />
@@ -37,9 +38,11 @@
       <module name="cache_redis" options="-parameters" />
       <module name="connect_demo" options="-parameters" />
       <module name="delay-queue" options="-parameters" />
+      <module name="learn-aop" options="-parameters" />
       <module name="learnRedis" options="-parameters" />
       <module name="mbp_redis" options="-parameters" />
       <module name="mybatis_redis" options="-parameters" />
+      <module name="product-redis" options="-parameters" />
       <module name="publish_subscribe_demo" options="-parameters" />
       <module name="redis-bitmap" options="-parameters" />
       <module name="redis-blog-article" options="-parameters" />
