@@ -9,6 +9,7 @@
         <module name="redis-lua" />
         <module name="delay-queue" />
         <module name="product-redis" />
+        <module name="learn-aop-blog-demo" />
         <module name="redis-blog-article" />
         <module name="publish_subscribe_demo" />
         <module name="connect_demo" />
