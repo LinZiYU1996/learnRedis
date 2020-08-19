@@ -40,6 +40,7 @@
       <module name="connect_demo" options="-parameters" />
       <module name="delay-queue" options="-parameters" />
       <module name="learn-aop" options="-parameters" />
+      <module name="learn-aop-blog-demo" options="-parameters" />
       <module name="learnRedis" options="-parameters" />
       <module name="mbp_redis" options="-parameters" />
       <module name="mybatis_redis" options="-parameters" />
