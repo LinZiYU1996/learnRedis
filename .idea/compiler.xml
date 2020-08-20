@@ -6,24 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="redis-lua" />
-        <module name="delay-queue" />
+        <module name="mybatis_redis" />
+        <module name="rpc-demo" />
         <module name="product-redis" />
         <module name="learn-aop-blog-demo" />
-        <module name="redis-blog-article" />
         <module name="publish_subscribe_demo" />
+        <module name="learn-zookeeper" />
         <module name="connect_demo" />
+        <module name="learnRedis" />
         <module name="redis-hyperloglog" />
         <module name="boot-redis" />
-        <module name="mybatis_redis" />
+        <module name="redis-blog-article" />
         <module name="mbp_redis" />
         <module name="redis-limiting" />
         <module name="redis-distributed-lock-2" />
         <module name="redis-bitmap" />
-        <module name="learnRedis" />
+        <module name="redis-distributed-lock" />
+        <module name="redis-lua" />
         <module name="cache-redis-caffeine" />
         <module name="cache_redis" />
-        <module name="redis-distributed-lock" />
+        <module name="delay-queue" />
         <module name="learn-aop" />
         <module name="affairs_demo" />
         <module name="redis-distributed-lock-3" />
@@ -41,6 +43,7 @@
       <module name="delay-queue" options="-parameters" />
       <module name="learn-aop" options="-parameters" />
       <module name="learn-aop-blog-demo" options="-parameters" />
+      <module name="learn-zookeeper" options="-parameters" />
       <module name="learnRedis" options="-parameters" />
       <module name="mbp_redis" options="-parameters" />
       <module name="mybatis_redis" options="-parameters" />

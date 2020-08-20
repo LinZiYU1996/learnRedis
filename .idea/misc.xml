@@ -26,6 +26,8 @@
         <option value="$PROJECT_DIR$/learn-aop/pom.xml" />
         <option value="$PROJECT_DIR$/product-redis/pom.xml" />
         <option value="$PROJECT_DIR$/learn-aop-blog-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/learn-zookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-demo/pom.xml" />
       </list>
     </option>
   </component>
